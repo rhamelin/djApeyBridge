@@ -8,6 +8,8 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'djApeyBridge.views.home', name='home'),
     # url(r'^djApeyBridge/', include('djApeyBridge.foo.urls')),
+    
+    #url(r'^compreg/', include('djApeyBridge.compreg.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
